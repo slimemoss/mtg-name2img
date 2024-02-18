@@ -11,3 +11,5 @@ steps:
   args: ['run', 'deploy', 'mtg-name2img', '--image', 'gcr.io/magic-401102/mtg-name2img', '--region', 'us-central1']
 images:
 - gcr.io/magic-401102/mtg-name2img
+options:
+  logging: CLOUD_LOGGING_ONLY
